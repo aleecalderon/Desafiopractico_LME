@@ -1,0 +1,53 @@
+body{
+    margin: 0%;
+    background-color: rgb(231, 231, 231);
+}
+
+/*inicio encabezado*/
+header{
+    background-color: rgb(172, 172, 172);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.596);
+    height: 70px;
+}
+
+.logo{
+    height: 70px;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+
+.encabezado a{
+        text-decoration: none;
+        color: rgb(218, 0, 0);
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        text-shadow: 3px 3px 2px rgba(41, 41, 41, 0.199);
+        padding-left: 30px;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.encabezado a:hover{
+    color: rgb(255, 255, 255);
+    transition: .4s ease;
+}    
+
+/*fin encabezado*/
+
+/*contenido*/
+.contenido{
+    font-family: "Josefin Sans", sans-serif;
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+
